@@ -67,16 +67,16 @@ const Contact = () => {
                 11:00 am to 7:00 pm (Mon-Sat)
               </div>
 
-              <h2 className="md:text-xl text-xl font-bold text-gray-900">
+              {/* <h2 className="md:text-xl text-xl font-bold text-gray-900">
                 Contact Person - 1
-              </h2>
+              </h2> */}
 
               <h2 className="md:text-xl text-lg mt-1 font-bold text-gray-900">
                 <FontAwesomeIcon
                   icon={faCircleUser}
                   className="text-gray-700 text-xl"
                 />{" "}
-                Sahil Kumar
+                Contact Person - 1
               </h2>
 
               <p className="mt-1 text-gray-900">
@@ -108,16 +108,16 @@ const Contact = () => {
                 11:00 am to 7:00 pm (Mon-Sat)
               </div>
 
-              <h2 className="text-xl font-bold text-gray-900">
+              {/* <h2 className="text-xl font-bold text-gray-900">
                 Contact Person - 2
-              </h2>
+              </h2> */}
 
               <h2 className="md:text-xl text-lg mt-1 font-bold text-gray-900">
                 <FontAwesomeIcon
                   icon={faCircleUser}
                   className="text-gray-700 text-xl"
                 /> {" "}
-                Sahil Kumar
+                Contact Person - 2
               </h2>
 
               <p className="mt-1 text-gray-900">

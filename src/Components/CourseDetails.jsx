@@ -8,7 +8,7 @@ const CourseDetails = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-10">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-4 md:py-10">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Left Content */}
           <div className="md:text-left text-center">

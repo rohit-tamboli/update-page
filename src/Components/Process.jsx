@@ -3,7 +3,7 @@ import React from "react";
 const Process = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 md:py-16 py-4 bg-[#FFFFFF]">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 md:py-8 py-4 bg-[#FFFFFF]">
         <h1 className="text-2xl flex justify-center lg:text-4xl font-bold leading-tight text-gray-900 pt-4">
           Admission Process
         </h1>

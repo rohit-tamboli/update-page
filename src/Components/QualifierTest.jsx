@@ -1,7 +1,7 @@
 const QualifierTest = () => {
   return (
     <section className="">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-4 md:py-16 bg-[#FFFFFF]">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-4 md:py-8 bg-[#FFFFFF]">
         {/* Heading */}
         <h2 className="text-2xl sm:text-3xl lg:text-4xl text-center font-bold text-gray-900 mb-10 lg:mb-12">
           Qualifier Test Details
@@ -13,7 +13,12 @@ const QualifierTest = () => {
             <img
               src="/Test.jpg"
               alt="Qualifier Test"
-              className="rounded-3xl shadow-lg w-full h-[250px] sm:h-[300px] lg:h-full object-cover"
+              className="rounded-3xl shadow-lg w-full h-[200px] sm:h-[300px] lg:h-[470px] object-cover hidden md:flex"
+            />
+            <img
+              src="/Test1.jpg"
+              alt="Qualifier Test"
+              className="rounded-3xl shadow-lg w-full h-[200px] sm:h-[300px] lg:h-full object-cover flex md:hidden"
             />
           </div>
 
