@@ -101,7 +101,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Left Content */}
             <div>
-              <h1 className="text-3xl lg:text-[38px] font-bold leading-tight text-gray-900 text-center md:text-left">
+              <h1 className="text-[22px] lg:text-[38px] font-bold leading-tight text-gray-900 text-center md:text-left">
                 Advanced Certification Program in Data Analytics with AI and Gen
                 AI + Internship & Placement (100%)
               </h1>
@@ -160,52 +160,53 @@ const Home = () => {
 
         {/* -------- */}
 
-        <div className="bg-white border-y border-gray-200">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div className="bg-white border-gray-200">
+          <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-4">
+            
             {/* Mobile View */}
-            <div className="lg:hidden bg-gray-50 rounded-2xl shadow-sm p-6">
+            <div className="lg:hidden bg-gray-50 rounded-2xl shadow-sm p-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide">
+                  <p className="text-[15px] font-semibold text-gray-900 tracking-wide">
                     Qualifier Test Date
                   </p>
-                  <p className="text-sm font-semibold text-gray-900 mt-1">
+                  <p className="text-[14px] font-bold text-red-500 mt-1">
                     February 15, 2026
                   </p>
                 </div>
 
                 <div>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide">
+                  <p className="text-[15px] font-semibold text-gray-900 tracking-wide">
                     Course Duration
                   </p>
-                  <p className="text-sm font-semibold text-gray-900 mt-1">
+                  <p className="text-[14px] font-bold text-red-500 mt-1">
                     3 Months (1+2)
                   </p>
                 </div>
 
                 <div>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide">
+                  <p className="text-[15px] font-semibold text-gray-900 tracking-wide">
                     Time Commitment
                   </p>
-                  <p className="text-sm font-semibold text-gray-900 mt-1">
+                  <p className="text-[14px] font-bold text-red-500 mt-1">
                     8–10 Hours / Week
                   </p>
                 </div>
 
                 <div>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide">
+                  <p className="text-[15px] font-semibold text-gray-900 tracking-wide">
                     Eligibility
                   </p>
-                  <p className="text-sm font-semibold text-gray-900 mt-1">
+                  <p className="text-[14px] font-bold text-red-500 mt-1">
                     12th Pass and Above
                   </p>
                 </div>
 
                 <div className="col-span-2">
-                  <p className="text-xs text-gray-500 uppercase tracking-wide">
+                  <p className="text-[15px] font-semibold text-gray-900 tracking-wide">
                     Learning Mode
                   </p>
-                  <p className="text-sm font-semibold text-gray-900 mt-1">
+                  <p className="text-[14px] font-bold text-red-500 mt-1">
                     Online
                   </p>
                 </div>
@@ -215,48 +216,46 @@ const Home = () => {
             {/* Desktop View */}
             <div className="hidden lg:grid grid-cols-5 text-center divide-x divide-gray-200">
               <div className="py-4 px-2">
-                <p className="text-sm text-gray-500 uppercase tracking-wide">
+                <p className="text-[17px] font-semibold text-gray-900 tracking-wide">
                   Qualifier Test Date
                 </p>
-                <p className="text-lg font-semibold text-gray-900 mt-1">
+                <p className="text-base font-bold text-red-500 mt-1">
                   February 15, 2026
                 </p>
               </div>
 
               <div className="py-4 px-2">
-                <p className="text-sm text-gray-500 uppercase tracking-wide">
+                <p className="text-[17px] font-semibold text-gray-900 tracking-wide">
                   Course Duration
                 </p>
-                <p className="text-lg font-semibold text-gray-900 mt-1">
+                <p className="text-base font-bold text-red-500 mt-1">
                   3 Months (1+2)
                 </p>
               </div>
 
               <div className="py-4 px-2">
-                <p className="text-sm text-gray-500 uppercase tracking-wide">
+                <p className="text-[17px] font-semibold text-gray-900 tracking-wide">
                   Time Commitment
                 </p>
-                <p className="text-lg font-semibold text-gray-900 mt-1">
+                <p className="text-base font-bold text-red-500 mt-1">
                   8–10 Hours / Week
                 </p>
               </div>
 
               <div className="py-4 px-2">
-                <p className="text-sm text-gray-500 uppercase tracking-wide">
+                <p className="text-[17px] font-semibold text-gray-900 tracking-wide">
                   Eligibility
                 </p>
-                <p className="text-lg font-semibold text-gray-900 mt-1">
+                <p className="text-base font-bold text-red-500 mt-1">
                   12th Pass and Above
                 </p>
               </div>
 
               <div className="py-4 px-2">
-                <p className="text-sm text-gray-500 uppercase tracking-wide">
+                <p className="text-[17px] font-semibold text-gray-900 tracking-wide">
                   Learning Mode
                 </p>
-                <p className="text-lg font-semibold text-gray-900 mt-1">
-                  Online
-                </p>
+                <p className="text-base font-bold text-red-500 mt-1">Online</p>
               </div>
             </div>
           </div>

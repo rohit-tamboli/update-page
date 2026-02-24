@@ -12,7 +12,7 @@ const Mentors = () => {
   return (
     <section className="bg-gray-50 py-8 md:py-16">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-2xl lg:text-4xl font-bold text-center text-gray-900 mb-14">
+        <h2 className="text-2xl lg:text-4xl font-bold text-center text-gray-900 mb-8">
           Meet Our Industry Experts
         </h2>
 
@@ -22,17 +22,17 @@ const Mentors = () => {
             {infiniteMentors.map((mentor, i) => (
               <div
                 key={i}
-                className="w-[260px] h-[280px] bg-white rounded-3xl  flex-shrink-0 flex flex-col items-center justify-center text-center p-6"
+                className="w-[160px] h-[200px] md:w-[260px] md:h-[280px] bg-white rounded-3xl  flex-shrink-0 flex flex-col items-center justify-center text-center p-4"
               >
                 <img
                   src={mentor.image}
                   alt={mentor.name}
-                  className="w-24 h-24 rounded-full object-cover mb-5 border-4 border-gray-100"
+                  className="w-16 h-16 md:w-24 md:h-24 rounded-full object-cover mb-5 border-4 border-gray-100"
                 />
-                <h3 className="font-semibold text-lg text-gray-900">
+                <h3 className="font-semibold md:text-lg text-sm text-gray-900">
                   {mentor.name}
                 </h3>
-                <p className="text-sm text-gray-500 mt-2">
+                <p className="md:text-sm text-[12px] text-gray-500 mt-2">
                   {mentor.role}
                 </p>
               </div>

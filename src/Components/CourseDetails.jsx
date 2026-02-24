@@ -2,12 +2,13 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 
 const CourseDetails = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-16">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-10">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Left Content */}
           <div className="md:text-left text-center">
@@ -15,7 +16,7 @@ const CourseDetails = () => {
               Why choose this Program?
             </h1>
 
-            <h3 className="text-lg md:text-4xl py-3 lg:text-xl font-bold leading-tight text-red-500">
+            <h3 className="text-base md:text-4xl py-3 lg:text-xl font-bold leading-tight text-red-500 mt-2">
               Corporate KIT + Course Certificate, Offer Letter, LOR, Job Offer
               Letter.
             </h3>
@@ -53,7 +54,11 @@ const CourseDetails = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Box 1 */}
               <div className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
-                <h2 className="text-xl font-semibold text-gray-900">
+                <h2 className="md:text-xl font-semibold text-gray-900">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-red-500 md:text-xl"
+                  />{" "}
                   Certification from upDate
                 </h2>
                 <p className="mt-3 text-gray-600">
@@ -64,8 +69,11 @@ const CourseDetails = () => {
 
               {/* Box 3 */}
               <div className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
-                <h2 className="text-xl font-semibold text-gray-900">
-                  Future-Ready Career Path
+                <h2 className="md:text-xl font-semibold text-gray-900">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-red-500 md:text-xl"
+                  />{" "}Future-Ready Career Path
                 </h2>
                 <p className="mt-3 text-gray-600">
                   Enter the fast-evolving AI era by mastering Data Analytics
@@ -75,8 +83,11 @@ const CourseDetails = () => {
 
               {/* Box 4 */}
               <div className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
-                <h2 className="text-xl font-semibold text-gray-900">
-                  Advanced Industry Curriculum
+                <h2 className="md:text-xl font-semibold text-gray-900">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-red-500 md:text-xl"
+                  />{" "}Advanced Industry Curriculum
                 </h2>
                 <p className="mt-3 text-gray-600">
                   Access cutting-edge business analysis content, engaging
@@ -87,8 +98,11 @@ const CourseDetails = () => {
 
               {/* Box 5 */}
               <div className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
-                <h2 className="text-xl font-semibold text-gray-900">
-                  Project-Based Learning Model
+                <h2 className="md:text-xl font-semibold text-gray-900">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-red-500 md:text-xl"
+                  />{" "}Project-Based Learning Model
                 </h2>
                 <p className="mt-3 text-gray-600">
                   Immerse yourself in hands-on projects covering data
@@ -100,8 +114,11 @@ const CourseDetails = () => {
 
               {/* Box 6 */}
               <div className="bg-white p-5 rounded-2xl shadow-sm hover:shadow-md transition duration-300">
-                <h2 className="text-xl font-semibold text-gray-900">
-                  Placement Opportunities
+                <h2 className="md:text-xl font-semibold text-gray-900">
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="text-red-500 md:text-xl"
+                  />{" "}Placement Opportunities
                 </h2>
                 <p className="mt-3 text-gray-600">
                   Receive revievvs, career coaching, and placement support to
@@ -111,7 +128,7 @@ const CourseDetails = () => {
               </div>
             </div>
           </div>
-          <p className="mt-10 text-black-500 text-lg flex justify-center text-center italic">
+          <p className="mt-10 text-black-500 md:text-lg flex justify-center text-center italic">
             Certificate Eligibility: Minimum 70% overall attendance and 30% in
             the cumulative evaluation score.
           </p>

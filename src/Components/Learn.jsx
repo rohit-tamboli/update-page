@@ -11,7 +11,7 @@ const Learn = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-16 bg-white">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-10  bg-white">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="md:text-left text-center">
@@ -19,7 +19,7 @@ const Learn = () => {
               What will you learn?
             </h1>
 
-            <p className="text-lg lg:text-lg py-4">
+            <p className="text-base lg:text-lg py-4">
               Drive your career forward by mastering Artificial Intelligence and
               Machine Learning. Build a strong foundation in Python, data
               handling with NumPy and Pandas, and data visualization. Advance to
@@ -35,7 +35,7 @@ const Learn = () => {
           {/* Right Image */}
           <div className="flex justify-center lg:justify-end">
             <img
-              src="/learn.png"
+              src="/learnn.jpg"
               alt="AI and ML Program"
               className="w-full max-w-md lg:max-w-lg rounded-3xl object-cover"
             />
@@ -44,7 +44,7 @@ const Learn = () => {
       </div>
 
       {/* <div className="bg-gradient-to-b from-white via-red-100 to-red-300 pb-4"> */}
-      <div className=" px-6 lg:px-12 py-6">
+      <div className=" px-6 lg:px-12 py-2">
         <h1 className="text-2xl lg:text-3xl font-bold text-gray-900">
           Course Details
         </h1>
@@ -55,18 +55,18 @@ const Learn = () => {
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
                     text-center md:divide-x divide-gray-200"
         >
-          <div className="flex items-center md:justify-center py-4 gap-3">
+          <div className="flex items-center md:justify-center py-4 md:py-8 gap-3">
             {/* Left Side – Icon */}
-            <span className="w-12 h-12 flex items-center justify-center rounded-full bg-red-500 ">
+            <span className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-red-500 ">
               <FontAwesomeIcon icon={faClock} className="text-white text-xl" />
             </span>
 
             {/* Right Side – Text */}
             <div className="text-left">
-              <p className="text-sm text-gray-500 uppercase tracking-wide">
+              <p className="text-[17px] md:text-lg font-semibold text-gray-900 tracking-wide">
                 Duration
               </p>
-              <p className="text-lg font-semibold text-gray-900 mt-1">
+              <p className="text-[16px] md:text-base font-medium text-gray-800 mt-0">
                 3 Months
               </p>
             </div>
@@ -75,7 +75,7 @@ const Learn = () => {
           <div className="flex items-center md:justify-center py-4 gap-3">
             {/* Left Side – Icon */}
 
-            <span className="w-12 h-12 flex items-center justify-center rounded-full bg-red-500">
+            <span className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-red-500">
               <FontAwesomeIcon
                 icon={faBookOpen}
                 className="text-white text-xl"
@@ -84,26 +84,26 @@ const Learn = () => {
 
             {/* Right Side – Text */}
             <div className="text-left">
-              <p className="text-sm text-gray-500 uppercase tracking-wide">
+              <p className="text-[17px] md:text-lg font-semibold text-gray-900 tracking-wide">
                 Course Mode
               </p>
-              <p className="text-lg font-semibold text-gray-900 mt-1">Online</p>
+              <p className="text-[16px] md:text-base font-medium text-gray-800 mt-0">Online</p>
             </div>
           </div>
 
           <div className="flex items-center md:justify-center py-4 gap-3">
             {/* Left Side – Icon */}
 
-            <span className="w-12 h-12 flex items-center justify-center rounded-full bg-red-500">
+            <span className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full bg-red-500">
               <FontAwesomeIcon icon={faAward} className="text-white text-xl" />
             </span>
 
             {/* Right Side – Text */}
             <div className="text-left">
-              <p className="text-sm text-gray-500 uppercase tracking-wide">
+              <p className="text-[17px] md:text-lg font-semibold text-gray-900 tracking-wide">
                 Certification
               </p>
-              <p className="text-lg font-semibold text-gray-900 mt-1">
+              <p className="text-[16px] md:text-base font-medium text-gray-800 mt-0">
                 from upDate
               </p>
             </div>

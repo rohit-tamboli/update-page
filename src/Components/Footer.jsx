@@ -7,7 +7,7 @@ const Footer = () => {
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-6
         flex flex-col md:flex-row
         justify-between items-center md:items-start
-        text-center md:text-left gap-4"
+        text-center md:text-left gap-4 pb-22"
       >
         {/* Left Side */}
         <div className="text-xs sm:text-sm text-gray-600 space-y-2">

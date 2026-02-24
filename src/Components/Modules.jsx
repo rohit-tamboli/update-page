@@ -20,7 +20,7 @@ const Modules = () => {
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[15px] sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 1: Python Programming Fundamentals and Flow Control (3 Weeks)
           </h2>
 
@@ -31,14 +31,12 @@ bg-white hover:bg-gray-50 transition"
           />
         </button>
 
-        
-
         <div
           className={`px-6 overflow-hidden transition-all duration-300 bg-white ${
             open1 ? "max-h-96 pb-4" : "max-h-0"
           }`}
         >
-          <ul className="space-y-2 text-gray-700 lg:text-lg list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
+          <ul className="space-y-2 text-gray-700 lg:text-lg text-sm list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
             <li>Master core Python syntax</li>
             <li>Work with lists, dictionaries, tuples, and sets</li>
             <li>
@@ -61,7 +59,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 2: The Data Handling Toolkit: NumPy and Pandas (3 Weeks)
           </h2>
 
@@ -77,7 +75,7 @@ bg-white hover:bg-gray-50 transition"
             open2 ? "max-h-96 pb-4" : "max-h-0"
           }`}
         >
-          <ul className="space-y-2 text-gray-700 lg:text-lg list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
+          <ul className="space-y-2 text-gray-700 lg:text-lg text-sm list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
             <li>
               Leverage NumPy for high-speed numerical operations and
               vectorization
@@ -106,7 +104,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 3: Statistical Thinking, Data Preparation, and ML Workflow (4
             Weeks)
           </h2>
@@ -123,7 +121,7 @@ bg-white hover:bg-gray-50 transition"
             open3 ? "max-h-96 pb-4" : "max-h-0"
           }`}
         >
-          <ul className="space-y-2 text-gray-700 lg:text-lg list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
+          <ul className="space-y-2 text-gray-700 lg:text-lg text-sm list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
             <li>
               Calculate and interpret key descriptive statistics to understand
               data distributions
@@ -155,7 +153,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 4: Core Supervised Learning: Regression and Classification (5
             Weeks)
           </h2>
@@ -172,7 +170,7 @@ bg-white hover:bg-gray-50 transition"
             open4 ? "max-h-96 pb-4" : "max-h-0"
           }`}
         >
-          <ul className="space-y-2 text-gray-700 lg:text-lg list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
+          <ul className="space-y-2 text-gray-700 lg:text-lg text-sm list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
             <li>
               Implement and evaluate simple and multiple linear regression
               models
@@ -201,7 +199,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 5: Advanced ML concepts and Unsupervised Learning (5 Weeks)
           </h2>
 
@@ -217,7 +215,7 @@ bg-white hover:bg-gray-50 transition"
             open5 ? "max-h-96 pb-4" : "max-h-0"
           }`}
         >
-          <ul className="space-y-2 text-gray-700 lg:text-lg list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
+          <ul className="space-y-2 text-gray-700 lg:text-lg text-sm list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
             <li>
               Address model robustness through the bias-variance trade-off and
               cross-validation
@@ -246,7 +244,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 6: Advanced Generative AI Concepts and Tools (4 Weeks)
           </h2>
 
@@ -262,7 +260,7 @@ bg-white hover:bg-gray-50 transition"
             open6 ? "max-h-96 pb-4" : "max-h-0"
           }`}
         >
-          <ul className="space-y-2 text-gray-700 lg:text-lg list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
+          <ul className="space-y-2 text-gray-700 lg:text-lg text-sm list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
             <li>
               Explore the landscape of foundation models including GPT, Gemini,
               and Llama
@@ -294,7 +292,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 7: Capstone Project and Final Presentation (2 Weeks)
           </h2>
 
@@ -310,7 +308,7 @@ bg-white hover:bg-gray-50 transition"
             open7 ? "max-h-96 pb-4" : "max-h-0"
           }`}
         >
-          <ul className="space-y-2 text-gray-700 lg:text-lg list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
+          <ul className="space-y-2 text-gray-700 lg:text-lg text-sm list-disc pl-6 marker:text-gray-700 leading-relaxed marker:text-sm">
             <li>
               Finalize project scope and perform end-to-end data sourcing and
               preparation

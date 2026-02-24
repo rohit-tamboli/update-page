@@ -3,8 +3,8 @@ import React from "react";
 const Process = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 md:py-16 py-8 bg-[#FFFFFF]">
-        <h1 className="text-2xl flex justify-center lg:text-4xl font-bold leading-tight text-gray-900">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 md:py-16 py-4 bg-[#FFFFFF]">
+        <h1 className="text-2xl flex justify-center lg:text-4xl font-bold leading-tight text-gray-900 pt-4">
           Admission Process
         </h1>
 
@@ -37,16 +37,16 @@ const Process = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Card 1 */}
             <div className="bg-white rounded-4xl shadow-md p-6 flex flex-col gap-2 hover:shadow-lg transition duration-300">
-              <h2 className="text-xl font-bold text-gray-900">
+              <h2 className="md:text-xl text-[18px] font-bold text-gray-900">
                 Clear Qualifier Test
               </h2>
 
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 md:text-base text-base leading-relaxed">
                 Clear the qualifier test to be eligible for the program
               </p>
 
               <img
-                src="/test.png"
+                src="/clear.jpg"
                 alt="AI Program"
                 className="w-full h-48 object-cover rounded-xl"
               />
@@ -54,16 +54,16 @@ const Process = () => {
 
             {/* Card 2 */}
             <div className="bg-white rounded-4xl shadow-md p-6 flex flex-col gap-2 hover:shadow-lg transition duration-300">
-              <h2 className="text-xl font-bold text-gray-900">
-                Complete Counselling
+              <h2 className="md:text-xl text-[18px] font-bold text-gray-900">
+                Interview by industry expert
               </h2>
 
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 md:text-base text-base leading-relaxed">
                 Only shortlisted candidates go through the counselling process
               </p>
 
               <img
-                src="/Counselling.png"
+                src="/inter.jpg"
                 alt="Advanced ML"
                 className="w-full h-48 object-cover rounded-xl"
               />
@@ -71,16 +71,16 @@ const Process = () => {
 
             {/* Card 3 */}
             <div className="bg-white rounded-4xl shadow-md p-6 flex flex-col gap-2 hover:shadow-lg transition duration-300">
-              <h2 className="text-xl font-bold text-gray-900">
+              <h2 className="md:text-xl text-[18px] font-bold text-gray-900">
                 Start Learning
               </h2>
 
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 md:text-base text-base leading-relaxed">
                 Learn from India's top educators and stand out from the crowd
               </p>
 
               <img
-                src="/Learning.png"
+                src="/learn.jpg"
                 alt="Generative AI"
                 className="w-full h-48 object-cover rounded-xl"
               />
