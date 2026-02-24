@@ -51,7 +51,7 @@ const Navbar = () => {
       </header>
 
       {/* 📱 Mobile Bottom Fixed Button */}
-      <div className="fixed bottom-0 left-0 w-full md:hidden bg-white border-t border-gray-200 shadow-lg p-3 z-50">
+      <div className="fixed rounded-t-2xl bottom-0 left-0 w-full md:hidden bg-white border-t border-gray-200 shadow-lg p-3 z-50">
         <button
           onClick={() => navigate("/signup")}
           className="w-full bg-red-500 hover:bg-red-600 
