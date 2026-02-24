@@ -101,7 +101,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Left Content */}
             <div>
-              <h1 className="text-[22px] lg:text-[38px] font-bold leading-tight text-gray-900 text-center md:text-left">
+              <h1 className="text-[27px] lg:text-[38px] font-bold leading-tight text-gray-900 text-center md:text-left">
                 Advanced Certification Program in Data Analytics with AI and Gen
                 AI + Internship & Placement (100%)
               </h1>

@@ -118,7 +118,7 @@ const Learn = () => {
           transition duration-300 
           text-white text-lg font-semibold 
           px-6 py-3 rounded-full shadow-md 
-          flex items-center gap-3 m-auto mb-10"
+          md:flex hidden items-center gap-3 m-auto mb-10"
         >
           REGISTER NOW
           <span className="w-6 h-6 flex items-center justify-center rounded-full bg-white">

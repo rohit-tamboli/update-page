@@ -20,7 +20,7 @@ const Modules = () => {
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-[15px] sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[16px] sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 1: Python Programming Fundamentals and Flow Control (3 Weeks)
           </h2>
 
@@ -59,7 +59,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[16px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 2: The Data Handling Toolkit: NumPy and Pandas (3 Weeks)
           </h2>
 
@@ -104,7 +104,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[16px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 3: Statistical Thinking, Data Preparation, and ML Workflow (4
             Weeks)
           </h2>
@@ -153,7 +153,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[16px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 4: Core Supervised Learning: Regression and Classification (5
             Weeks)
           </h2>
@@ -199,7 +199,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[16px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 5: Advanced ML concepts and Unsupervised Learning (5 Weeks)
           </h2>
 
@@ -244,7 +244,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[16px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 6: Advanced Generative AI Concepts and Tools (4 Weeks)
           </h2>
 
@@ -292,7 +292,7 @@ bg-white hover:bg-gray-50 transition"
 px-4 sm:px-6 py-4 
 bg-white hover:bg-gray-50 transition"
         >
-          <h2 className="text-[15px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
+          <h2 className="text-[16px]  sm:text-base md:text-lg font-bold text-gray-900 text-left leading-snug">
             Module 7: Capstone Project and Final Presentation (2 Weeks)
           </h2>
 
