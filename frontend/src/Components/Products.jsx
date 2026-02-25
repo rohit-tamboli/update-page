@@ -1,17 +1,45 @@
 import React from "react";
 import "../styles/Products.css";
+import axios from "axios";
 
 const Products = ({ products }) => {
   const checkoutHandler = async (amount) => {
-    console.log(amount);
+    const { data: keyData } = await axios.get("/api/v1/getKey");
+    const { key } = keyData;
+    
+
+    const { data: orderData } = await axios.post("/api/v1/payment/process", {
+      amount,
+    });
+    const { order } = orderData;
+    console.log(order);
+
+    const options = {
+      key,
+      amount,
+      currency: "INR",
+      name: "upDt",
+      description: "Testing Transaction",
+      order_id: order.id,
+      callback_url: "/api/v1/paymentVerification",
+      prefill: {
+        name: "upDt",
+        email: "updt@example.com",
+        contact: "9999999999",
+      },
+      theme: {
+        color: "#F37254",
+      },
+    };
+
+    const rzp = new Razorpay(options);
+    rzp.open();
   };
 
   return (
     <>
       <h2></h2>
-      <h1 class="text-3xl font-bold text-center my-4">
-    Products
-  </h1>
+      <h1 className="text-3xl font-bold text-center my-4">Products</h1>
       <div className="products-container">
         {products.map((item) => (
           <div className="product-card" key={item.id}>

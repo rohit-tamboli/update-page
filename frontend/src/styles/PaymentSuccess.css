@@ -1,38 +1,93 @@
-.payment-success-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f9f9f9;
+.success-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f6f9fc, #eef2f7);
+  padding: 20px;
+}
+
+.success-card {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 420px;
+  width: 100%;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.success-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.success-reference {
+  background-color: #f4f6f8;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.success-reference span {
+  display: block;
+  color: #777;
+  font-size: 13px;
+}
+
+.success-reference strong {
+  color: #111;
+  font-size: 15px;
+}
+
+.success-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.success-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
   }
-  
-  .payment-success-card {
-    background: #ffffff;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 400px;
-    width: 90%;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .payment-success-title {
-    font-size: 2rem;
-    color: #28a745;
-    margin-bottom: 10px;
-  }
-  
-  .payment-success-message {
-    font-size: 1.2rem;
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .payment-success-reference {
-    font-size: 1rem;
-    color: #333;
-    background-color: #f1f1f1;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
+}
