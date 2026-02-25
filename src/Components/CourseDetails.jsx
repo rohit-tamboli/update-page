@@ -57,7 +57,7 @@ const CourseDetails = () => {
                 <h2 className="md:text-xl font-semibold text-gray-900">
                   <FontAwesomeIcon
                     icon={faCircleCheck}
-                    className="text-red-500 md:text-xl"
+                    className="text-green-500 md:text-xl"
                   />{" "}
                   Certification from upDate
                 </h2>
@@ -72,8 +72,9 @@ const CourseDetails = () => {
                 <h2 className="md:text-xl font-semibold text-gray-900">
                   <FontAwesomeIcon
                     icon={faCircleCheck}
-                    className="text-red-500 md:text-xl"
-                  />{" "}Future-Ready Career Path
+                    className="text-green-500 md:text-xl"
+                  />{" "}
+                  Future-Ready Career Path
                 </h2>
                 <p className="mt-3 text-gray-600">
                   Enter the fast-evolving AI era by mastering Data Analytics
@@ -86,8 +87,9 @@ const CourseDetails = () => {
                 <h2 className="md:text-xl font-semibold text-gray-900">
                   <FontAwesomeIcon
                     icon={faCircleCheck}
-                    className="text-red-500 md:text-xl"
-                  />{" "}Advanced Industry Curriculum
+                    className="text-green-500 md:text-xl"
+                  />{" "}
+                  Advanced Industry Curriculum
                 </h2>
                 <p className="mt-3 text-gray-600">
                   Access cutting-edge business analysis content, engaging
@@ -101,8 +103,9 @@ const CourseDetails = () => {
                 <h2 className="md:text-xl font-semibold text-gray-900">
                   <FontAwesomeIcon
                     icon={faCircleCheck}
-                    className="text-red-500 md:text-xl"
-                  />{" "}Project-Based Learning Model
+                    className="text-green-500 md:text-xl"
+                  />{" "}
+                  Project-Based Learning Model
                 </h2>
                 <p className="mt-3 text-gray-600">
                   Immerse yourself in hands-on projects covering data
@@ -117,8 +120,9 @@ const CourseDetails = () => {
                 <h2 className="md:text-xl font-semibold text-gray-900">
                   <FontAwesomeIcon
                     icon={faCircleCheck}
-                    className="text-red-500 md:text-xl"
-                  />{" "}Placement Opportunities
+                    className="text-green-500 md:text-xl"
+                  />{" "}
+                  Placement Opportunities
                 </h2>
                 <p className="mt-3 text-gray-600">
                   Receive revievvs, career coaching, and placement support to
