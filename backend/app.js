@@ -9,8 +9,10 @@ const app = express();
 // new add
 app.use(
   cors({
-    origin: "http://localhost:5173",
-    https: "https://update-page-nu.vercel.app/",
+    origin: [
+      "http://localhost:5173",
+      "https://update-page-nu.vercel.app"
+    ],
     credentials: true,
   })
 );
