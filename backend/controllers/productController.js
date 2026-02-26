@@ -34,13 +34,17 @@ export const paymentVerification = async (req, res) => {
 
   const isAuthentic = expectedSignature === razorpay_signature;
   if (isAuthentic) {
-    return res.redirect(
-      // `http://localhost:5173/paymentSuccess?reference=${razorpay_payment_id}`
-      `https://update-page-nu.vercel.app/paymentSuccess?reference=${razorpay_payment_id}`
-    );
+    // return res.redirect(
+    //   `http://localhost:5173/paymentSuccess?reference=${razorpay_payment_id}`
+    // );
+    return res.status(200).json({
+      success: true,
+      message: "Payment Verified Successfully",
+    });
   } else {
     res.status(400).json({
       success: false,
+      message: "Invalid Signature",
     });
   }
 };

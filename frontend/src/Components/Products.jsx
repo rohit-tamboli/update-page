@@ -26,20 +26,29 @@ const Products = ({ products }) => {
       name: "upDt",
       description: "Testing Transaction",
       order_id: order.id,
-      callback_url: `${API_URL}/api/v1/paymentVerification`,
-      // handler: async function (response) {
-      //   try {
-      //     await axios.post(`${API_URL}/api/v1/paymentVerification`, response);
+      // callback_url: `${API_URL}/api/v1/paymentVerification`,
+      handler: async function (response) {
+        try {
+          // Call backend verification
+          const verificationResponse = await axios.post(
+            `${API_URL}/api/v1/paymentVerification`,
+            response
+          );
 
-      //     window.location.href = `/paymentSuccess?reference=${response.razorpay_payment_id}`;
-      //   } catch (error) {
-      //     console.log(
-      //       "Verification Error:",
-      //       error.response?.data || error.message
-      //     );
-      //     alert("Payment verification failed");
-      //   }
-      // },
+          // Check if payment verification was successful
+          if (verificationResponse.data.success) {
+            window.location.href = `/paymentSuccess?reference=${response.razorpay_payment_id}`;
+          } else {
+            alert("Payment verification failed");
+          }
+        } catch (error) {
+          console.log(
+            "Verification Error:",
+            error.response?.data || error.message
+          );
+          alert("Payment verification failed");
+        }
+      },
       prefill: {
         name: "upDt",
         email: "updt@example.com",
