@@ -3,13 +3,16 @@ import "../styles/Products.css";
 import axios from "axios";
 
 const Products = ({ products }) => {
+
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
+
   const checkoutHandler = async (amount) => {
     const { data: keyData } = await axios.get("/api/v1/getKey");
     const { key } = keyData;
     
 
     const { data: orderData } = await axios.post("/api/v1/payment/process", {
-      amount,
+      amount, 
     });
     const { order } = orderData;
     console.log(order);

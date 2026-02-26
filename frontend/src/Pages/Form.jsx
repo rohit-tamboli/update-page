@@ -3,8 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { CheckCircle2, AlertCircle, Loader2, ArrowLeft, Smartphone, QrCode, Copy, Wallet, ExternalLink } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-// const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 const MERCHANT_UPI_ID = import.meta.env.VITE_MERCHANT_UPI_ID;
 const MERCHANT_NAME = import.meta.env.VITE_MERCHANT_NAME || "upDate Academy";
 const PROGRAM_FEE = import.meta.env.VITE_PROGRAM_FEE || 99;
@@ -12,7 +11,7 @@ const PROGRAM_FEE = import.meta.env.VITE_PROGRAM_FEE || 99;
 const Form = () => {
   const [step, setStep] = useState("registration"); // registration | payment | success
   const [role, setRole] = useState("");
-  const [fullName, setFullName] = useState("");
+  const [fullName, setFullName] = useState(""); 
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | success | error
