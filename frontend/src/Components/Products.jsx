@@ -66,12 +66,12 @@ const Products = ({ products }) => {
   return (
     <>
       <h2></h2>
-      <h1 className="text-3xl font-bold text-center my-4">Products</h1>
+      <h1 className="text-3xl font-bold text-center my-4">Registration Fees</h1>
       <div className="products-container">
         {products.map((item) => (
           <div className="product-card" key={item.id}>
-            <img src={item.image} className="product-image" alt="" />
-            <h3 className="product-title">{item.title}</h3>
+            {/* <img src={item.image} className="product-image" alt="" /> */}
+            {/* <h3 className="product-title">{item.title}</h3> */}
             <p className="product-price">
               Price <strong>{item.price} /-</strong>
             </p>
@@ -79,7 +79,7 @@ const Products = ({ products }) => {
               onClick={() => checkoutHandler(item.price)}
               className="pay-button"
             >
-              Pay {item.price} /-
+              Pay {item.price} /- 
             </button>
           </div>
         ))}

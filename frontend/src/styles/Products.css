@@ -51,14 +51,15 @@ body {
   
   /* Product price */
   .product-price {
-    font-size: 16px;
-    color: #555;
+    font-size: 19px;
+    color: #000;
     margin-bottom: 20px;
+    font-weight: 500;
   }
   
   /* Pay button */
   .pay-button {
-    background-color: #017a8d;
+    background-color: red;
     color: white;
     font-size: 16px;
     border: none;
