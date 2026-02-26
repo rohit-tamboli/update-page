@@ -1,7 +1,7 @@
 const productsData=[
     {
         id:1,
-        title:"Soft Bag",
+        title:"Program Fee",
         price:99,
         // image:"./images/bag.jpg"
     }, 
