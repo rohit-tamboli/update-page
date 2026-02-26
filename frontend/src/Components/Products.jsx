@@ -34,7 +34,7 @@ const Products = ({ products }) => {
           response
         );
 
-        window.location.href = `/paymentsuccess?reference=${response.razorpay_payment_id}`;
+        window.location.href = `/paymentSuccess?reference=${response.razorpay_payment_id}`;
       } catch (error) {
         alert("Payment verification failed");
       }
