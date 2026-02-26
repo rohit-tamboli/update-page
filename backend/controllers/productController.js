@@ -32,6 +32,12 @@ export const paymentVerification = async (req, res) => {
   console.log(`Razorpay Signature, ${razorpay_signature}`);
   console.log(`Expected Signature, ${expectedSignature}`);
 
+  // 🔥 YAHAN Temporarily ADD KARO LOGS
+  console.log("Order ID:", razorpay_order_id);
+  console.log("Payment ID:", razorpay_payment_id);
+  console.log("Received Signature:", razorpay_signature);
+  console.log("Expected Signature:", expectedSignature);
+
   const isAuthentic = expectedSignature === razorpay_signature;
   if (isAuthentic) {
     // return res.redirect(
