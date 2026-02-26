@@ -26,12 +26,12 @@ const Products = ({ products }) => {
       name: "upDt",
       description: "Testing Transaction",
       order_id: order.id,
-      // callback_url: "/api/v1/paymentVerification",
-      handler: async function (response) {
-        await axios.post(`${API_URL}/api/v1/paymentVerification`, response);
+      callback_url: `${API_URL}/api/v1/paymentVerification`,
+      // handler: async function (response) {
+      //   await axios.post(`${API_URL}/api/v1/paymentVerification`, response);
 
-        window.location.href = `/paymentsuccess?reference=${response.razorpay_payment_id}`;
-      },
+      //   window.location.href = `/paymentsuccess?reference=${response.razorpay_payment_id}`;
+      // },
       prefill: {
         name: "upDt",
         email: "updt@example.com",
