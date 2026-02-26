@@ -47,16 +47,7 @@ const Navbar = () => {
               REGISTER NOW
             </button>
 
-            <button
-              onClick={() => navigate("/products")}
-              className="hidden md:inline-block bg-green-500 hover:bg-green-600 
-                         transition duration-300 
-                         text-white text-sm md:text-lg 
-                         px-4 md:px-6 py-2 
-                         rounded-lg font-semibold shadow-md"
-            >
-              PAY NOW
-            </button>
+            
           </nav>
         </div>
       </header>
