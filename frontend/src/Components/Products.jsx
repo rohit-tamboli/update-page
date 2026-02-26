@@ -36,8 +36,9 @@ const Products = ({ products }) => {
 
         window.location.href = `/paymentSuccess?reference=${response.razorpay_payment_id}`;
       } catch (error) {
-        alert("Payment verification failed");
-      }
+  console.log("Verification Error:", error.response?.data || error.message);
+  alert("Payment verification failed");
+}
     },
       prefill: {
         name: "upDt",
