@@ -3,17 +3,19 @@ import "../styles/Products.css";
 import axios from "axios";
 
 const Products = ({ products }) => {
-
-  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000/api";
+  const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+  console.log("API_URL:", API_URL);
 
   const checkoutHandler = async (amount) => {
-    const { data: keyData } = await axios.get("/api/v1/getKey");
+    const { data: keyData } = await axios.get(`${API_URL}/api/v1/getKey`);
     const { key } = keyData;
-    
 
-    const { data: orderData } = await axios.post("/api/v1/payment/process", {
-      amount, 
-    });
+    const { data: orderData } = await axios.post(
+      `${API_URL}/api/v1/payment/process`,
+      {
+        amount,
+      }
+    );
     const { order } = orderData;
     console.log(order);
 
@@ -24,7 +26,12 @@ const Products = ({ products }) => {
       name: "upDt",
       description: "Testing Transaction",
       order_id: order.id,
-      callback_url: "/api/v1/paymentVerification",
+      // callback_url: "/api/v1/paymentVerification",
+      handler: async function (response) {
+        await axios.post(`${API_URL}/api/v1/paymentVerification`, response);
+
+        window.location.href = `/paymentsuccess?reference=${response.razorpay_payment_id}`;
+      },
       prefill: {
         name: "upDt",
         email: "updt@example.com",
