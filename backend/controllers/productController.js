@@ -35,7 +35,8 @@ export const paymentVerification = async (req, res) => {
   const isAuthentic = expectedSignature === razorpay_signature;
   if (isAuthentic) {
     return res.redirect(
-      `http://localhost:5173/paymentSuccess?reference=${razorpay_payment_id}`
+      // `http://localhost:5173/paymentSuccess?reference=${razorpay_payment_id}`
+      `https://update-page-nu.vercel.app/paymentSuccess?reference=${razorpay_payment_id}`
     );
   } else {
     res.status(400).json({
