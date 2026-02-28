@@ -5,6 +5,8 @@ import Form from "./Pages/Form";
 import Products from "./Components/Products";
 import productsData from "./Components/data";
 import PaymentSuccess from "./Components/PaymentSuccess";
+import Phonepe from "./file/phonepe/Phonepe";
+
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/signup" element={<Form />} />
         <Route path="/products" element={<Products products={productsData} />} />
         <Route path="/paymentSuccess" element={<PaymentSuccess />} />
+        <Route path="/phonepe" element={<Phonepe />} />
+        
         
       </Routes>
     </>

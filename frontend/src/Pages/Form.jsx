@@ -39,7 +39,7 @@ const Form = () => {
         setMessage("Account created successfully!");
 
         setTimeout(() => {
-          navigate("/products");
+          navigate("/phonepe");
         }, 1200);
       } else {
         setStatus("error");
