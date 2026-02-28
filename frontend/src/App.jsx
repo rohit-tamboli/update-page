@@ -6,6 +6,8 @@ import Products from "./Components/Products";
 import productsData from "./Components/data";
 import PaymentSuccess from "./Components/PaymentSuccess";
 import Phonepe from "./file/phonepe/Phonepe";
+import Success from "./Components/Success";
+import Failure from "./Components/Failure";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path="/products" element={<Products products={productsData} />} />
         <Route path="/paymentSuccess" element={<PaymentSuccess />} />
         <Route path="/phonepe" element={<Phonepe />} />
+        <Route path="/success" element={<Success />} />
+        <Route path="/failure" element={<Failure />} />
         
         
       </Routes>
